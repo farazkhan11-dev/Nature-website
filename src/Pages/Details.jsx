@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Star, TrendingUp, Clock, Ruler, ArrowLeft } from 'lucide-react';
-import { places } from '../data/places.js';
+import { places } from '../Data/places.js';
 import PlaceCard from '../components/PlaceCard.jsx';
 
 export default function Details() {

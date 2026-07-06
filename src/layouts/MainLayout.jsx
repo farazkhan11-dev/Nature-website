@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import Navbar from '../components/Navbar.jsx';
-import Footer from '../components/Footer.jsx';
+import Navbar from '../Components/Navbar.jsx';
+import Footer from '../Components/Footer.jsx';
 
 /**
  * Signature element: a "trail" progress line pinned to the right edge on

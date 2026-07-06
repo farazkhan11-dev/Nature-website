@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Check, X, CreditCard, Lock } from 'lucide-react';
 import toast from 'react-hot-toast';
-import Header from '../components/Header.jsx';
-import Subscription from '../components/Subscription.jsx';
+import Header from '../Components/Header.jsx';
+import Subscription from '../Components/Subscription.jsx';
 
 const plans = [
   {
