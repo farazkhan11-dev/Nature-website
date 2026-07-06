@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canopy: #16302A;
+  --color-canopy-light: #1F4237;
+  --color-canopy-dark: #0D1F1A;
+
+  --color-mist: #F3F0E7;
+  --color-mist-dim: #E8E3D3;
+
+  --color-moss: #5B7F5A;
+  --color-moss-light: #8FAE85;
+  --color-moss-dark: #3F5C40;
+
+  --color-clay: #C1793B;
+  --color-clay-light: #DA9A5F;
+  --color-clay-dark: #9C5C27;
+
+  --color-bark: #241C16;
+  --color-bark-light: #4A3C30;
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --animate-drift: drift 6s ease-in-out infinite;
+  --animate-growLine: growLine 1.2s ease-out forwards;
+
+  @keyframes drift {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes growLine {
+    from { height: 0%; }
+    to { height: 100%; }
+  }
+}
+
+@utility bg-contour {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.06' stroke-width='1'%3E%3Cpath d='M0 100 Q50 60 100 100 T200 100'/%3E%3Cpath d='M0 130 Q50 90 100 130 T200 130'/%3E%3Cpath d='M0 160 Q50 120 100 160 T200 160'/%3E%3Cpath d='M0 70 Q50 30 100 70 T200 70'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+body {
+  @apply bg-mist text-bark font-body antialiased;
+}
