@@ -1,5 +1,5 @@
 import { Quote } from 'lucide-react';
-import { testimonials } from '../data/places.js';
+import { testimonials } from '../Data/places.js';
 
 export default function Testimonials() {
   return (
