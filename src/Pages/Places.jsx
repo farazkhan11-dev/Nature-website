@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
-import Header from '../components/Header.jsx';
-import SearchBar from '../components/SearchBar.jsx';
-import CategoryFilter from '../components/CategoryFilter.jsx';
-import PlaceCard from '../components/PlaceCard.jsx';
-import { places, categories } from '../data/places.js';
+import Header from '../Components/Header.jsx';
+import SearchBar from '../Components/SearchBar.jsx';
+import CategoryFilter from '../Components/CategoryFilter.jsx';
+import PlaceCard from '../Components/PlaceCard.jsx';
+import { places, categories } from '../Data/places.js';
 
 export default function Places() {
   const [query, setQuery] = useState('');

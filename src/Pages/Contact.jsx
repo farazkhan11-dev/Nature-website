@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { Mail, MapPin, Send } from 'lucide-react';
-import Header from '../components/Header.jsx';
+import Header from '../Components/Header.jsx';
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });

@@ -1,4 +1,4 @@
-import Header from '../components/Header.jsx';
+import Header from '../Components/Header.jsx';
 import { Leaf, Compass, Users } from 'lucide-react';
 
 const values = [

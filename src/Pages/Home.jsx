@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Compass, Leaf, Map } from 'lucide-react';
-import PlaceCard from '../components/PlaceCard.jsx';
-import Testimonials from '../components/Testimonials.jsx';
-import Subscription from '../components/Subscription.jsx';
-import { places } from '../data/places.js';
+import PlaceCard from '../Components/PlaceCard.jsx';
+import Testimonials from '../Components/Testimonials.jsx';
+import Subscription from '../Components/Subscription.jsx';
+import { places } from '../Data/places.js';
 
 const stats = [
   { label: 'Trails logged', value: '640+' },
