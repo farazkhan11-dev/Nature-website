@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout.jsx';
-import Home from './pages/Home.jsx';
-import Places from './pages/Places.jsx';
-import Details from './pages/Details.jsx';
-import About from './pages/About.jsx';
-import Contact from './pages/Contact.jsx';
-import SubscriptionPage from './pages/Subscription.jsx';
+import Home from './Pages/Home.jsx';
+import Places from './Pages/Places.jsx';
+import Details from './Pages/Details.jsx';
+import About from './Pages/About.jsx';
+import Contact from './Pages/Contact.jsx';
+import SubscriptionPage from './Pages/Subscription.jsx';
 
 export default function App() {
   return (
