@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-mist/10 py-5 px-6 text-center text-xs font-mono text-mist/50">
-        © {new Date().getFullYear()} Wildpath. Leave no trace.
+        © {new Date().getFullYear()} Wildpath. Built by FarazAhmad
       </div>
     </footer>
   );
